@@ -71,6 +71,8 @@ Arduino GND		->	WL + 7
 
 <img src="images/strimer_plus_diy_bending.jpg" />
 
+![](images/strimer_plus_diy_connection.jpg)
+
 Requirements
 ------------
 
