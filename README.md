@@ -8,8 +8,6 @@
 
 **Web Site:** www.themt.co
 
-**License:** MIT
-
 **Note:** In loving memory of my grandfather (Ahmet Ozdil)
 
 ## Welcome to Strimer Plus DIY
