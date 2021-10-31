@@ -54,12 +54,19 @@ Pinout
 ------
 
 Arduino 5V+			->	White line (WL)
+
 Arduino PIN 03		->	WL + 1
+
 Arduino PIN 05 	->	WL + 2
+
 Arduino PIN 06 	->	WL + 3
+
 Arduino PIN 09 	->	WL + 4
+
 Arduino PIN 10 	->	WL + 5
+
 Arduino PIN 11 	->	WL + 6
+
 Arduino GND		->	WL + 7
 
 <img src="images/strimer_plus_diy_pinout.jpg" />
