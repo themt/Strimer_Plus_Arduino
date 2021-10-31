@@ -3,9 +3,13 @@
 ![](images/strimer_plus_diy_preview.gif)
 
 **Version:** 2021.10.27
+
 **Author:** Murat TAMCI
+
 **Web Site:** www.themt.co
+
 **License:** MIT
+
 **Note:** In loving memory of my grandfather (Ahmet Ozdil)
 
 ## Welcome to Strimer Plus DIY
@@ -68,4 +72,3 @@ Requirements
 - 1x	Arduino Micro for work.
 - 1x	USB cable for communication.
 - 8x	Jumper wire for connect Arduino to Strimer Plus.
-
