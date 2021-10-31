@@ -3,7 +3,7 @@
  * Version: 2021.10.27
  * Author: Murat TAMCI
  * Web Site: www.themt.co
- * License: MIT
+ * License: Read LICENSE.txt
  */
 
 #include <EEPROM.h>
