@@ -14,7 +14,7 @@ Strimer Plus DIY is an **Arduino project**. Arduino controls the named Strimer P
 
 [Click here](https://lian-li.com/product/strimer-2-24pin/) to show official Official Strimer Plus product.
 
-![](C:\Users\user\YandexDisk\Strimer_Plus_DIY\images\strimer_plus_product.jpg)
+![](images/strimer_plus_product.jpg)
 
 Arduino connected to the Strimer Plus with jumper wires. Sketch (code) with Arduino drives to all leds on Strimer Plus. Putty application sends commands to sketch in Arduino for change something inside. That is all flow.
 
