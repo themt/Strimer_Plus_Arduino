@@ -165,12 +165,12 @@ void setup() {
     }
   }
 
-  FastLED.addLeds<CHIPSET, ROW_1_PIN, COLOR_ORDER>(buffer[0], BUFFER_WIDTH).setCorrection(TypicalLEDStrip);
-  FastLED.addLeds<CHIPSET, ROW_2_PIN, COLOR_ORDER>(buffer[1], BUFFER_WIDTH).setCorrection(TypicalLEDStrip);
-  FastLED.addLeds<CHIPSET, ROW_3_PIN, COLOR_ORDER>(buffer[2], BUFFER_WIDTH).setCorrection(TypicalLEDStrip);
-  FastLED.addLeds<CHIPSET, ROW_4_PIN, COLOR_ORDER>(buffer[3], BUFFER_WIDTH).setCorrection(TypicalLEDStrip);
-  FastLED.addLeds<CHIPSET, ROW_5_PIN, COLOR_ORDER>(buffer[4], BUFFER_WIDTH).setCorrection(TypicalLEDStrip);
-  FastLED.addLeds<CHIPSET, ROW_6_PIN, COLOR_ORDER>(buffer[5], BUFFER_WIDTH).setCorrection(TypicalLEDStrip);
+  FastLED.addLeds<CHIPSET, ROW_1_PIN, COLOR_ORDER>(buffer[0], BUFFER_WIDTH);
+  FastLED.addLeds<CHIPSET, ROW_2_PIN, COLOR_ORDER>(buffer[1], BUFFER_WIDTH);
+  FastLED.addLeds<CHIPSET, ROW_3_PIN, COLOR_ORDER>(buffer[2], BUFFER_WIDTH);
+  FastLED.addLeds<CHIPSET, ROW_4_PIN, COLOR_ORDER>(buffer[3], BUFFER_WIDTH);
+  FastLED.addLeds<CHIPSET, ROW_5_PIN, COLOR_ORDER>(buffer[4], BUFFER_WIDTH);
+  FastLED.addLeds<CHIPSET, ROW_6_PIN, COLOR_ORDER>(buffer[5], BUFFER_WIDTH);
 
   FastLED.setBrightness(config.brightness);
 
