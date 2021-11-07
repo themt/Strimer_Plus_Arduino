@@ -12,13 +12,15 @@
 
 ## Welcome to Strimer Plus DIY
 
-Strimer Plus DIY is an **Arduino project**. Arduino controls the named Strimer Plus product of **Lian-Li** corporation for **displaying scrolling text message**.
+Strimer Plus DIY is an **Arduino project**. It makes cool and different the Strimer Plus product of **Lian-Li** corporation with **displaying scrolling text message**.
 
 [Click here](https://lian-li.com/product/strimer-2-24pin/) to show official Official Strimer Plus product.
 
 ![](images/strimer_plus_product.jpg)
 
 Arduino connected to the Strimer Plus with jumper wires. Sketch (code) with Arduino drives to all leds on Strimer Plus. Putty application sends commands to sketch in Arduino for change something inside. That is all flow.
+
+IMPORTANT NOTE: Remove "-master" suffix from folder name and make it just "Strimer_Plus_DIY". Because folder's name must be same with ino extended file for Arduino IDE.
 
 ## Getting Started
 
