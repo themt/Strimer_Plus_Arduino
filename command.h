@@ -25,18 +25,18 @@ void cmdProc () {
       
       while (*cmd_cursor != '\0') {
  
-        while (*cmd_cursor == '\t' || *cmd_cursor == ' ' && *cmd_cursor != '\0') { cmd_cursor++; } // skip white space
+        while (*cmd_cursor == '\t' || *cmd_cursor == ' ' && *cmd_cursor != '\0') { cmd_cursor++; } // skip all whitespace
   
         cmd_key = "";
         cmd_value = "";
         
-        // key buldum
+        // i found key
         
         if (*cmd_cursor == '-') {
   
           cmd_fail = false;
   
-          if (*cmd_cursor != '\0') cmd_cursor++; // - işaretini atla
+          if (*cmd_cursor != '\0') cmd_cursor++; // skip "-" character
           
           while (*cmd_cursor != '\t' && *cmd_cursor != ' ' && *cmd_cursor != '\0') {
             cmd_key += *cmd_cursor; cmd_cursor++;
@@ -47,9 +47,9 @@ void cmdProc () {
             Serial.println("FAIL key is empty");
           }
   
-          if (*cmd_cursor != '\0') cmd_cursor++; // bir boşluk atla
+          if (*cmd_cursor != '\0') cmd_cursor++; // skip whitespace character
   
-          // değeri al
+          // i found value
   
           while (*cmd_cursor != '-' && *cmd_cursor != '\0') {
             cmd_value += *cmd_cursor; cmd_cursor++;
