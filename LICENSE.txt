@@ -1,7 +1,7 @@
-Strimer Plus DIY License
+Strimer Plus Arduino License
 
 Copyright (c) 2021 Murat TAMCI
 
-You can using, modify and distribute of source code of Strimer Plus DIY with including name of author (Murat TAMCI).
+You can using, modify and distribute of source code of Strimer Plus Arduino with including name of author (Murat TAMCI).
 
 Strimer Plus is product of Lian Li Industrial Co., LTD.
