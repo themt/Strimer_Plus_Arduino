@@ -1,5 +1,5 @@
 /*
- * Strimer Plus DIY
+ * Strimer Plus Arduino
  * Version: 2021.10.27
  * Author: Murat TAMCI
  * Web Site: www.themt.co
@@ -25,7 +25,7 @@
 #define COLOR_ORDER GRB                       // color order for Strimer Plus led strip (FastLED)
 #define CHIPSET WS2812B                       // chipset for Strimer Plus led strip (FastLED)
 
-#define DEFAULT_MSG "Strimer Plus DIY  "      // text message for scrolling.
+#define DEFAULT_MSG "Strimer Plus Arduino  "      // text message for scrolling.
 #define DEFAULT_COLOR "C8FF00"                // foreground color.
 #define DEFAULT_BGCOLOR "000000"              // background color.
 #define DEFAULT_SCROLLDELAY 35                // scrolling delay. lower value is faster scrolling. higher value is slower.
@@ -176,7 +176,7 @@ void setup() {
 
   FastLED.show();
   
-  Serial.println ("** Strimer Plus DIY");
+  Serial.println ("** Strimer Plus Arduino");
   Serial.println ("** Version: 2021.10.27 ** Author: Murat TAMCI www.themt.co ** License: MIT");
   Serial.println ("** Hello there! I'm waiting your commands :] Everything in README.md");
 
