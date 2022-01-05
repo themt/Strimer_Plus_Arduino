@@ -1,5 +1,5 @@
 /*
- * Part of Strimer Plus DIY
+ * Part of Strimer Plus Arduino
  * Version: 2021.10.27
  * Author: Murat TAMCI
  * Web Site: www.themt.co
