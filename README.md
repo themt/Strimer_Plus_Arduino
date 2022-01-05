@@ -1,4 +1,4 @@
-# Strimer Plus DIY
+# Strimer Plus Arduino
 
 ![](images/strimer_plus_diy_preview.gif)
 
@@ -10,9 +10,9 @@
 
 **Note:** In loving memory of my grandfather (Ahmet Ozdil)
 
-## Welcome to Strimer Plus DIY
+## Welcome to Strimer Plus Arduino
 
-Strimer Plus DIY is an **Arduino project**. It makes cool and different the Strimer Plus product of **Lian-Li** corporation with **displaying scrolling text message**.
+Strimer Plus Arduino is an **Arduino project**. It makes cool and different the Strimer Plus product of **Lian-Li** corporation with **displaying scrolling text message**.
 
 [Click here](https://lian-li.com/product/strimer-2-24pin/) to show official Official Strimer Plus product.
 
@@ -20,17 +20,17 @@ Strimer Plus DIY is an **Arduino project**. It makes cool and different the Stri
 
 Arduino connected to the Strimer Plus with jumper wires. Sketch (code) with Arduino drives to all leds on Strimer Plus. Putty application sends commands to sketch in Arduino for change something inside. That is all flow.
 
-IMPORTANT NOTE: Remove "-master" suffix from folder name and make it just "Strimer_Plus_DIY". Because folder's name must be same with ino extended file for Arduino IDE.
+IMPORTANT NOTE: Remove "-master" suffix from folder name and make it just "Strimer_Plus_Arduino". Because folder's name must be same with ino extended file for Arduino IDE.
 
 ## Getting Started
 
 Connect the 8 lines Strimer Plus cable to Arduino with guide by "**Pinout**" section.
 
-Upload the sketch to Arduino named "**Strimer_Plus_DIY.ino**".
+Upload the sketch to Arduino named "**Strimer_Plus_Arduino.ino**".
 
-Double click to the "**putty session.reg**" file on Windows and register it. That adds the "**StrimerPlusDIY**" option into session of **Putty**.
+Double click to the "**putty session.reg**" file on Windows and register it. That adds the "**StrimerPlusArduino**" option into session of **Putty**.
 
-Run "**Putty.exe**" and select "**StrimerPlusDIY**" and click **Load** button. Write com port of Arduino to **Serial line** edit box. Click the **Open** button. It opens Terminal for writing commands.
+Run "**Putty.exe**" and select "**StrimerPlusArduino**" and click **Load** button. Write com port of Arduino to **Serial line** edit box. Click the **Open** button. It opens Terminal for writing commands.
 
 Write some command with guide by "**Commands**" section. For example:
 
