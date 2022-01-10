@@ -34,9 +34,9 @@ Run "**Putty.exe**" and select "**StrimerPlusArduino**" and click **Load** butto
 
 Write some command with guide by "**Commands**" section. For example:
 
-`-msg Hello word -color ff0000 -save 1`
+`-msg Hello world -color ff0000 -save 1`
 
-Above command tells us.  Displayed message will be "**Hello word**". Color will be "**Red**" and these settings will save into Arduino EEPROM. If we use `save` command then settings will reload when Arudino power on.
+Above command tells us.  Displayed message will be "**Hello world**". Color will be "**Red**" and these settings will save into Arduino EEPROM. If we use `save` command then settings will reload when Arudino power on.
 
 Commands
 --------
