@@ -12,6 +12,7 @@
  * 
  */
 
+#define VERSION 100
 #define BUFFER_WIDTH 20                       // Strimer Plus horizontal led count
 #define BUFFER_HEIGHT 6                       // Strimer Plus vertical led count
 
@@ -95,8 +96,8 @@ void cmdWork (String key, String value) {
     Serial.println ("OK");
     
   } else if (key == "save") {
-    saveConfig();
     Serial.println ("OK");
+    saveConfig();
     
   } else {
     Serial.println ("FAIL unkown command: " + key);
@@ -176,9 +177,13 @@ void setup() {
 
   FastLED.show();
   
-  Serial.println ("** Strimer Plus Arduino");
-  Serial.println ("** Version: 2021.10.27 ** Author: Murat TAMCI www.themt.co ** License: MIT");
-  Serial.println ("** Hello there! I'm waiting your commands :] Everything in README.md");
+  Serial.print ("Strimer Plus Arduino|"); Serial.print (VERSION); Serial.print ("|2021 (C) THEMT.CO|");
+  Serial.print ("msg:"); Serial.print (config.message); Serial.print ("|");
+  Serial.print ("color:"); Serial.print (config.color); Serial.print ("|");
+  Serial.print ("bgcolor:"); Serial.print (config.bg_color); Serial.print ("|");
+  Serial.print ("delay:"); Serial.print (config.scrollDelay); Serial.print ("|");
+  Serial.print ("inv:"); Serial.print (config.invert); Serial.print ("|");
+  Serial.print ("bri:"); Serial.print (config.brightness); Serial.print ("\n");
 
   delay(200);
 }
