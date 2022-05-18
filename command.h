@@ -32,7 +32,7 @@ void cmdProc () {
         
         // i found key
         
-        if (*cmd_cursor == '-') {
+        if (*(cmd_cursor-1) != '\\' && *cmd_cursor == '-') {
   
           cmd_fail = false;
   
@@ -51,7 +51,10 @@ void cmdProc () {
   
           // i found value
   
-          while (*cmd_cursor != '-' && *cmd_cursor != '\0') {
+          while (*cmd_cursor != '\0') {
+            if (*cmd_cursor == '\\') {
+              cmd_cursor++;
+            } else if (*(cmd_cursor+1) == '-') break;
             cmd_value += *cmd_cursor; cmd_cursor++;
           }
   
